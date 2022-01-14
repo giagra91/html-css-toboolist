@@ -12,15 +12,16 @@
     <!-- Intestazione Toboolist -->
     <header>
         <img src="img/Logo.png" alt="toboolist-logo" id="logo">
-        <h1>Toboolist</h1>
+        <h1 id="title">Toboolist</h1>
     </header>
 
     <!-- Corpo Toboolist -->
     <main>
         <!-- Div header -->
+
         <div class="container-head">
-            <span class="add-task">Add Task</span>
-            <span class="add-section">Add Section</span>
+            <button class="add-task">Add Task</button>
+            <button class="add-section">Add Section</button>
             
         </div>
 
@@ -28,33 +29,54 @@
         <div class="container-body">
 
             <div>
-                <h3>&#9660; New Task</h3> <br>
-                <span>&#x2705; Quarterly Newsletter</span>
-                
-            </div>
-            <br>
 
-            <div>
-                <h3>&#9660; Today</h3> <br>
-                <p>&#x2705; Recruiting blog post</p>
-                <p>&#x2705; Mobile app launch</p>
-                <p>&#10060; Interview John H.</p>
-                <p>&#x2705; Summit update to mobile storefront</p>
+                <ul class="a">
+                    <li class="title-list">New Task
+                        <ul>
+                            <li class="check">
+                                Quarterly Newsletter <span class="editorial">Editorial</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="title-list">Today
+                        <ul>
+                            <li class="check">
+                                Recruiting blog post<span class="editorial">Editorial</span>
+                            </li>
+                            
+                            <li class="check">
+                                Mobile app launch<span class="goals">Q1 Goals</span>
+                            </li>
 
-                
-            </div>
-            <br>
-            
-            <div>
-                <h3>&#9660; Upcoming</h3> <br>
-                <p>&#10060; Schedule meeting with Alex</p>
-                <p>&#x2705; Homepage refresh</p>
-                <p>&#x2705; Onboard new Sales team members</p>
-                <p>&#x2705; Review editorial calendar</p>
-                
-            </div>
-            
-            
+                            <li class="check-x">
+                                Interview John H.<span class="recruiting">Recruiting</span>
+                            </li>
+
+                            <li class="check">
+                                Summit update to mobile storefronts<span class="mobile">Mobile</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="title-list">Upcoming
+                        <ul>
+                            <li class="check-x">
+                                Schedule meeting with Alex
+                            </li>
+                            
+                            <li class="check">
+                                Homepage refresh<span class="website">Website</span>
+                            </li>
+
+                            <li class="check">
+                                Onboard new Sales team members<span class="sales">Sales</span>
+                            </li>
+
+                            <li class="check">
+                                Review editorial calendar<span class="editorial">Editorial</span>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
         </div>
         
     </main>    

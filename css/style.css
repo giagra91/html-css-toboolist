@@ -42,6 +42,91 @@ h1{
     border-bottom-right-radius: 10px;
 }
 
+
+.a{
+    list-style-type: "\25BC";
+}
+
+.check{
+    list-style-type:  '\2713';
+    font-style: normal;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.check-x{
+    list-style-type:  '\00d7';
+
+}
+
+
+
+.title-list{
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.editorial{
+    display: inline-block;
+    width: 75px;
+    height: 25px;
+    background-color: rgb(36,127,207);
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.goals{
+    display: inline-block;
+    width: 85px;
+    height: 25px;
+    background-color: rgb(171,110,211);
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.recruiting{
+    display: inline-block;
+    width: 90px;
+    height: 25px;
+    background-color: rgb(65,171,133);
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.mobile{
+    display: inline-block;
+    width: 70px;
+    height: 25px;
+    background-color: rgb(243,180,78);
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.website{
+    display: inline-block;
+    width: 80px;
+    height: 25px;
+    background-color: rgb(220,65,217);
+    color: white;
+    text-align: center;
+    border-radius: 8px
+}
+
+.sales{
+    display: inline-block;
+    width: 60px;
+    height: 25px;
+    background-color: rgb(81,210,73);
+    color: white;
+    text-align: center;
+    border-radius: 8px
+}
+
 .add-task{
     display: inline-block;
     width: 85px;
@@ -64,3 +149,11 @@ h1{
     margin-left: 3px;
 }
 
+#title{
+    text-align: center;
+}
+
+#logo{
+    margin-top: 15px;
+    margin-left: 15px;
+}
