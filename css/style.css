@@ -52,11 +52,11 @@ h1{
     font-style: normal;
     margin-top: 8px;
     margin-bottom: 8px;
+    font-style: sans-serif;
 }
 
 .check-x{
     list-style-type:  '\00d7';
-
 }
 
 
@@ -75,6 +75,8 @@ h1{
     color: white;
     text-align: center;
     border-radius: 8px;
+    margin-left: 6px;
+
 }
 
 .goals{
@@ -85,6 +87,8 @@ h1{
     color: white;
     text-align: center;
     border-radius: 8px;
+    margin-left: 6px;
+
 }
 
 .recruiting{
@@ -95,6 +99,8 @@ h1{
     color: white;
     text-align: center;
     border-radius: 8px;
+    margin-left: 6px;
+
 }
 
 .mobile{
@@ -105,6 +111,8 @@ h1{
     color: white;
     text-align: center;
     border-radius: 8px;
+    margin-left: 6px;
+
 }
 
 .website{
@@ -114,7 +122,9 @@ h1{
     background-color: rgb(220,65,217);
     color: white;
     text-align: center;
-    border-radius: 8px
+    border-radius: 8px;
+    margin-left: 6px;
+
 }
 
 .sales{
@@ -124,7 +134,8 @@ h1{
     background-color: rgb(81,210,73);
     color: white;
     text-align: center;
-    border-radius: 8px
+    border-radius: 8px;
+    margin-left: 6px;
 }
 
 .add-task{
