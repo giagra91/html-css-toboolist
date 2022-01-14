@@ -43,9 +43,22 @@ h1{
 }
 
 .task{
-    width: 600px;
-    height: 20px;
+    display: inline-block;
+    width: 85px;
+    height: 30px;
     background-color: dodgerblue;
     color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.section{
+    display: inline-block;
+    width: 85px;
+    height: 30px;
+    color: gray;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 5px;
 }
 
