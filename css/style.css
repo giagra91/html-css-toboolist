@@ -42,7 +42,7 @@ h1{
     border-bottom-right-radius: 10px;
 }
 
-.task{
+.add-task{
     display: inline-block;
     width: 85px;
     height: 30px;
@@ -50,9 +50,10 @@ h1{
     color: white;
     text-align: center;
     border-radius: 5px;
+    padding: 5px;
 }
 
-.section{
+.add-section{
     display: inline-block;
     width: 85px;
     height: 30px;
@@ -60,5 +61,6 @@ h1{
     text-align: center;
     border: 1px solid gray;
     border-radius: 5px;
+    margin-left: 3px;
 }
 
