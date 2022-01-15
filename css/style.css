@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: lightsteelblue;
+    background-color: rgb(230, 230, 230);
 }
 
 header{
@@ -16,6 +16,10 @@ header{
 
 h1{
     display: inline-block;
+}
+
+h3{
+    margin-top: 30px;
 }
 
 .container-head{
@@ -48,116 +52,67 @@ h1{
 }
 
 .check{
-    list-style-type:  '\2713';
-    font-style: normal;
+    list-style: none;    font-style: normal;
     margin-top: 8px;
     margin-bottom: 8px;
-    font-style: sans-serif;
+    font-size: 20px;
 }
 
-.check-x{
-    list-style-type:  '\00d7';
-}
-
-
-
-.title-list{
-    font-weight: bold;
-    font-size: 18px;
-    margin-top: 40px;
+.colored-tag{
+    display: inline-block;
+    width: 85px;
+    height: 25px;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    margin-left: 6px;
 }
 
 .editorial{
-    display: inline-block;
-    width: 75px;
-    height: 25px;
     background-color: rgb(36,127,207);
-    color: white;
-    text-align: center;
-    border-radius: 8px;
-    margin-left: 6px;
-
 }
 
 .goals{
-    display: inline-block;
-    width: 85px;
-    height: 25px;
     background-color: rgb(171,110,211);
-    color: white;
-    text-align: center;
-    border-radius: 8px;
-    margin-left: 6px;
-
 }
 
 .recruiting{
-    display: inline-block;
-    width: 90px;
-    height: 25px;
     background-color: rgb(65,171,133);
-    color: white;
-    text-align: center;
-    border-radius: 8px;
-    margin-left: 6px;
-
 }
 
 .mobile{
-    display: inline-block;
-    width: 70px;
-    height: 25px;
     background-color: rgb(243,180,78);
-    color: white;
-    text-align: center;
-    border-radius: 8px;
-    margin-left: 6px;
-
 }
 
 .website{
-    display: inline-block;
-    width: 80px;
-    height: 25px;
     background-color: rgb(220,65,217);
-    color: white;
-    text-align: center;
-    border-radius: 8px;
-    margin-left: 6px;
-
 }
 
 .sales{
-    display: inline-block;
-    width: 60px;
-    height: 25px;
     background-color: rgb(81,210,73);
-    color: white;
-    text-align: center;
-    border-radius: 8px;
-    margin-left: 6px;
 }
 
-.add-task{
+.add{
     display: inline-block;
     width: 85px;
     height: 30px;
-    background-color: dodgerblue;
-    color: white;
     text-align: center;
     border-radius: 5px;
     padding: 5px;
 }
 
-.add-section{
-    display: inline-block;
-    width: 85px;
-    height: 30px;
+.button-zero{
+    background-color: dodgerblue;
+    color: white;
+}
+
+.button-one{
     color: gray;
-    text-align: center;
     border: 1px solid gray;
-    border-radius: 5px;
-    margin-left: 3px;
+}
+
+.li-pic-check{
+    margin-right: 10px;
 }
 
 #title{
