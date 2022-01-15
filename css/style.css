@@ -18,7 +18,7 @@ h1{
     display: inline-block;
 }
 
-h3{
+h2{
     margin-top: 30px;
 }
 
@@ -55,7 +55,7 @@ h3{
     list-style: none;    font-style: normal;
     margin-top: 8px;
     margin-bottom: 8px;
-    font-size: 20px;
+    font-family: sans-serif;
 }
 
 .colored-tag{
@@ -122,4 +122,5 @@ h3{
 #logo{
     margin-top: 15px;
     margin-left: 15px;
+    vertical-align;
 }
