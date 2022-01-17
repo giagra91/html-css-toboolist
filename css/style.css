@@ -16,6 +16,7 @@ header{
     height: 80px;
     background-color: white;
     padding: 10px 20px;
+    margin-bottom: 50px;
 }
 
 h1{
@@ -23,7 +24,12 @@ h1{
 }
 
 h2{
-    margin-top: 30px;
+}
+
+li{
+    list-style: none;
+    padding: 10px 0;
+    color: #434851;
 }
 
 /* Commenti relativi alle classi */
@@ -33,7 +39,6 @@ h2{
     height: 70px;
     background-color: white;
     margin: 0 auto;
-    margin-top: 70px;
     padding-left: 60px;
     line-height: 70px;
     border-top-left-radius: 10px;
@@ -52,17 +57,10 @@ h2{
     border-bottom-right-radius: 10px;
 }
 
-
-.a{
-    list-style: none;
+.lists{
+    margin-bottom: 40px;
 }
 
-.check{
-    list-style: none;    
-    margin-top: 8px;
-    margin-bottom: 8px;
-    font-family: sans-serif;
-}
 
 .colored-tag{
     display: inline-block;
@@ -99,11 +97,9 @@ h2{
 
 .add{
     display: inline-block;
-    width: 85px;
-    height: 30px;
-    text-align: center;
     border-radius: 5px;
-    padding: 5px;
+    padding: 7px 14px;
+    border: none;
 }
 
 .button-zero{
@@ -117,17 +113,28 @@ h2{
     border: 1px solid gray;
 }
 
-.li-pic-check{
+.circle{
     margin-right: 10px;
+    border-radius: 7px;
+}
+
+.checked{
+    color: green;
+    border: 1px solid green;
+}
+
+.unchecked{
+    color: red;
+    border: 1px solid red;
 }
 
 /* Commenti relativi agli id */
 
 #title{
     font-weight: 900;
-    font-size: 2.5em;
+    font-size: 2.3em;
 }
 
 #logo{
-    vertical-align: middle;
+    vertical-align: bottom;
 }
